@@ -1,0 +1,19 @@
+### NEW NOTE
+# 1. Navigate to workspace
+cd c:\Important\writing_and_listening_module
+
+# 2. Initialize (CORRECT METHOD - not react-native init)
+npx -y @react-native-community/cli@latest init MyApp --directory MyApp --skip-install
+
+# 3. Enter project
+cd MyApp
+
+# 4. Install dependencies
+npm install
+
+# 5. Verify device
+adb devices
+
+# 6. Run on device
+npm run android
+
